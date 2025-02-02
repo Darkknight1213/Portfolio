@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Joan&family=Marck+Script&family=Sacramento&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Joan', serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5rem;
+  margin: 50px auto 10px auto;
+  color: #444;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 5px;
+  color: #555;
+}
+
+h3 {
+  font-family: 'Joan', serif;
+  color: #666;
+}
+
+.top-container {
+  background-color: hsl(170, 51%, 71%);
+  padding: 100px 20px;
+  position: relative;
+}
+.middle-container {
+  background-color:  hsl(170, 51%, 71%);
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+  width: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 150px;
+}
+
+.me {
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+}
+
+.sk {
+  width: 175px;
+  height: 175px;
+}
+
+.nin {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btnn {
+  display: inline-block;
+  background-color: #008cba;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #005f73;
+}
+
+.bottom-container {
+  background-color: hsl(170, 51%, 71%);
+}
