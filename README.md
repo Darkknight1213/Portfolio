@@ -3,7 +3,7 @@
 Welcome to my **cyber-themed personal portfolio** – designed like a digital battle station ⚔️  
 Built to showcase not just my work, but my mindset, projects, and potential as a developer with an edge.
 
-Live Site 👉 [portfolio](riyaz-porfolio.vercel.app)
+Live Site 👉 [portfolio](https://riyaz-porfolio.vercel.app/)
 
 ---
 
