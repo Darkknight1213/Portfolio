@@ -50,7 +50,7 @@ const HeroSection = () => {
         <h2 className="text-3xl md:text-5xl font-bold mb-4 fade-in-up text-foreground">
           I build <span className="text-cyber-blue">AI systems</span>, 
           <span className="text-magenta"> web apps</span>, and{' '}
-          <span className="text-lime-green">real shit</span> that works.
+          <span className="text-lime-green">product</span> that <span className="text-cyan">matters.</span>
         </h2>
 
         {/* Subtitle */}

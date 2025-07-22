@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Award, Zap, Mic, CreditCard } from "lucide-react";
+import { ExternalLink, Github, Award, Zap, Mic,Brain, CreditCard } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
@@ -59,8 +59,74 @@ const ProjectsSection = () => {
       accentColor: "magenta"
     },
 
-    {
-      id: "offlinepay",
+
+
+    {id: "posc",
+      title: "PoSC",
+      subtitle: "Proof of Skill & Contribution",
+      description:
+        "Decentralized protocol to verify real skill & contribution in hackathons via GitHub commits, peer signatures, and smart contract-minted SBTs.",
+      stack: [
+        "Solidity",
+        "Hardhat",
+        "Polygon Mumbai",
+        "React",
+        "Tailwind CSS",
+        "Ethers.js",
+        "IPFS",
+        "nft.storage",
+        "Node.js"
+      ],
+      features: [
+        "Soulbound NFT skill badges",
+        "GitHub commit verification",
+        "Role-based metadata & peer signatures",
+        "Decentralized badge minting dashboard"
+      ],
+      impact:
+        "Transforms resumes into trustless, verified contribution profiles. Recruiters see real proof, not fluff.",
+      highlight:
+        "Web3ssh 2025 — National Blockchain Hackathon project (1st of its kind to solve verifiable participation)",
+      github: "https://github.com/Hack-Smiths/PoSC-Proof_of_Skill_and_Contribution",
+      live: "https://onchain-badge-11.vercel.app/",
+      icon: Award,
+      gradient: "from-electric-purple to-cyber-blue",
+      accentColor: "cyber-blue"
+    },
+
+    {id: "portfolia",
+      title: "PORTFOLIA",
+      subtitle: "Smart Internship Portfolio Builder",
+      description:
+        "An AI-powered platform that auto-generates professional portfolios for interns by analyzing their GitHub, Drive, and skills — complete with LinkedIn sync and analytics.",
+      stack: [
+        "React.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "FastAPI",
+        "Firebase",
+        "OpenAI"
+      ],
+      features: [
+        "Automated project import from GitHub/Drive",
+        "Skill extraction & verification",
+        "Industry-specific portfolio templates",
+        "LinkedIn sync & PDF export",
+        "Performance analytics & insights"
+      ],
+      impact:
+        "Eliminates the struggle of interns creating portfolios manually. Transforms raw work into job-ready showcases.",
+      highlight:
+        "Internship product in development – part of Hack Smith R&D initiative to revolutionize career documentation",
+      github: "https://github.com/Hack-Smiths/portfolia", // update if repo name differs
+      live: null,
+      icon: Brain,
+      gradient: "from-magenta to-lime-green",
+      accentColor: "magenta"
+    },
+
+
+        {id: "offlinepay",
       title: "OFFLINE PAY",
       subtitle: "UPI Without Internet",
       description:
@@ -81,8 +147,8 @@ const ProjectsSection = () => {
       gradient: "from-electric-purple to-magenta",
       accentColor: "electric-purple"
     },
-    {
-      id: "resq",
+
+    {id: "resq",
       title: "RESQ",
       subtitle: "AI Emergency Ops System",
       description:
@@ -103,6 +169,7 @@ const ProjectsSection = () => {
       gradient: "from-cyber-blue to-magenta",
       accentColor: "cyber-blue"
     }
+
   ];
 
 
